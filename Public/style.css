@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav, ul {
+    background-color: rgb(237, 82, 103);
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+li {
+    margin: 15px;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+}
+
+.logoImg {
+    background-color: black;
+    border-radius: 15px;
+    margin-left: -160px;
+}
+
+#carouselExampleAutoplaying {
+    width: 80vw;
+}
+
+#headerCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
